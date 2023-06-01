@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1B1A2CF-2C9F-4F36-AB15-40F662D3B6F2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DA3863B-9D60-4B4F-8F4C-E78452469FB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoTech Assignment/View/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3DA3863B-9D60-4B4F-8F4C-E78452469FB0 - 6b5345132d9d9c43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Array&lt;GoTech_Assignment.Question&gt;, Swift.Int, SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;GoTech_Assignment.MultipleChoiceQuestionView, GoTech_Assignment.TextQuestionView&gt;, GoTech_Assignment.SingleChoiceQuestionView&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt; in GoTech_Assignment.ContentView.body.getter : some"
+                  moduleName = "GoTech Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrblinov/Desktop/GoTech%20Assignment/GoTech%20Assignment/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "3DA3863B-9D60-4B4F-8F4C-E78452469FB0 - 6b5345132d9d9c43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Array&lt;GoTech_Assignment.Question&gt;, Swift.Int, SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;GoTech_Assignment.MultipleChoiceQuestionView, GoTech_Assignment.TextQuestionView&gt;, GoTech_Assignment.SingleChoiceQuestionView&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt; in GoTech_Assignment.ContentView.body.getter : some"
+                  moduleName = "GoTech Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrblinov/Desktop/GoTech%20Assignment/GoTech%20Assignment/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1444">
+               </Location>
+               <Location
+                  uuid = "3DA3863B-9D60-4B4F-8F4C-E78452469FB0 - 4069ab9a8b71259b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GoTech_Assignment.Question, GoTech_Assignment.Question) -&gt; Swift.Bool in closure #1 () -&gt; Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Array&lt;GoTech_Assignment.Question&gt;, Swift.Int, SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;GoTech_Assignment.MultipleChoiceQuestionView, GoTech_Assignment.TextQuestionView&gt;, GoTech_Assignment.SingleChoiceQuestionView&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt; in GoTech_Assignment.ContentView.body.getter : some"
+                  moduleName = "GoTech Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrblinov/Desktop/GoTech%20Assignment/GoTech%20Assignment/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

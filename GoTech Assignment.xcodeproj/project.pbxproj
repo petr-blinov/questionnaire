@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1380DA2A29070500A13831 /* Color+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1380D92A29070500A13831 /* Color+RGB.swift */; };
+		8B1380DC2A29079000A13831 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1380DB2A29079000A13831 /* Colors.swift */; };
+		8B1380DE2A292F7100A13831 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 8B1380DD2A292F7000A13831 /* Preview Content */; };
+		8B1380E12A2932A900A13831 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1380E02A2932A900A13831 /* RadioButton.swift */; };
+		8B1380E32A2946D000A13831 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1380E22A2946D000A13831 /* Answer.swift */; };
+		8BEDE4942A253B7F00FBDB17 /* GoTech_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDE4932A253B7F00FBDB17 /* GoTech_AssignmentApp.swift */; };
+		8BEDE4962A253B7F00FBDB17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDE4952A253B7F00FBDB17 /* ContentView.swift */; };
+		8BEDE4982A253B8000FBDB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEDE4972A253B8000FBDB17 /* Assets.xcassets */; };
+		8BEDE4A32A253C6400FBDB17 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDE4A22A253C6400FBDB17 /* Question.swift */; };
+		8BEDE4A62A253CA600FBDB17 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDE4A52A253CA600FBDB17 /* QuestionViewModel.swift */; };
+		8BEDE4AB2A253D7500FBDB17 /* MultipleChoiceQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDE4AA2A253D7500FBDB17 /* MultipleChoiceQuestionView.swift */; };
+		8BEDE4AD2A253DB000FBDB17 /* TextQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDE4AC2A253DB000FBDB17 /* TextQuestionView.swift */; };
+		8BEDE4AF2A253DCC00FBDB17 /* SingleChoiceQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDE4AE2A253DCC00FBDB17 /* SingleChoiceQuestionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B1380D92A29070500A13831 /* Color+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+RGB.swift"; sourceTree = "<group>"; };
+		8B1380DB2A29079000A13831 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8B1380DD2A292F7000A13831 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		8B1380E02A2932A900A13831 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		8B1380E22A2946D000A13831 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		8BEDE4902A253B7F00FBDB17 /* GoTech Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoTech Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEDE4932A253B7F00FBDB17 /* GoTech_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTech_AssignmentApp.swift; sourceTree = "<group>"; };
+		8BEDE4952A253B7F00FBDB17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BEDE4972A253B8000FBDB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEDE4A22A253C6400FBDB17 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8BEDE4A52A253CA600FBDB17 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		8BEDE4AA2A253D7500FBDB17 /* MultipleChoiceQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceQuestionView.swift; sourceTree = "<group>"; };
+		8BEDE4AC2A253DB000FBDB17 /* TextQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextQuestionView.swift; sourceTree = "<group>"; };
+		8BEDE4AE2A253DCC00FBDB17 /* SingleChoiceQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleChoiceQuestionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEDE48D2A253B7F00FBDB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1380D72A2906E100A13831 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B1380D82A2906F200A13831 /* Color */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8B1380D82A2906F200A13831 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				8B1380D92A29070500A13831 /* Color+RGB.swift */,
+				8B1380DB2A29079000A13831 /* Colors.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		8B1380DF2A29329700A13831 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				8B1380E02A2932A900A13831 /* RadioButton.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		8BEDE4872A253B7F00FBDB17 = {
+			isa = PBXGroup;
+			children = (
+				8BEDE4922A253B7F00FBDB17 /* GoTech Assignment */,
+				8BEDE4912A253B7F00FBDB17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEDE4912A253B7F00FBDB17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEDE4902A253B7F00FBDB17 /* GoTech Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEDE4922A253B7F00FBDB17 /* GoTech Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				8BEDE4932A253B7F00FBDB17 /* GoTech_AssignmentApp.swift */,
+				8BEDE4A12A253C2700FBDB17 /* Model */,
+				8BEDE4A72A253D0600FBDB17 /* View */,
+				8BEDE4A42A253C8C00FBDB17 /* ViewModel */,
+				8B1380D72A2906E100A13831 /* Helpers */,
+				8BEDE4972A253B8000FBDB17 /* Assets.xcassets */,
+				8B1380DD2A292F7000A13831 /* Preview Content */,
+			);
+			path = "GoTech Assignment";
+			sourceTree = "<group>";
+		};
+		8BEDE4A12A253C2700FBDB17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BEDE4A22A253C6400FBDB17 /* Question.swift */,
+				8B1380E22A2946D000A13831 /* Answer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BEDE4A42A253C8C00FBDB17 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8BEDE4A52A253CA600FBDB17 /* QuestionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BEDE4A72A253D0600FBDB17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B1380DF2A29329700A13831 /* Elements */,
+				8BEDE4952A253B7F00FBDB17 /* ContentView.swift */,
+				8BEDE4AA2A253D7500FBDB17 /* MultipleChoiceQuestionView.swift */,
+				8BEDE4AC2A253DB000FBDB17 /* TextQuestionView.swift */,
+				8BEDE4AE2A253DCC00FBDB17 /* SingleChoiceQuestionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEDE48F2A253B7F00FBDB17 /* GoTech Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEDE49E2A253B8000FBDB17 /* Build configuration list for PBXNativeTarget "GoTech Assignment" */;
+			buildPhases = (
+				8BEDE48C2A253B7F00FBDB17 /* Sources */,
+				8BEDE48D2A253B7F00FBDB17 /* Frameworks */,
+				8BEDE48E2A253B7F00FBDB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoTech Assignment";
+			productName = "GoTech Assignment";
+			productReference = 8BEDE4902A253B7F00FBDB17 /* GoTech Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEDE4882A253B7F00FBDB17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8BEDE48F2A253B7F00FBDB17 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 8BEDE48B2A253B7F00FBDB17 /* Build configuration list for PBXProject "GoTech Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEDE4872A253B7F00FBDB17;
+			productRefGroup = 8BEDE4912A253B7F00FBDB17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEDE48F2A253B7F00FBDB17 /* GoTech Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEDE48E2A253B7F00FBDB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1380DE2A292F7100A13831 /* Preview Content in Resources */,
+				8BEDE4982A253B8000FBDB17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEDE48C2A253B7F00FBDB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEDE4AD2A253DB000FBDB17 /* TextQuestionView.swift in Sources */,
+				8B1380DC2A29079000A13831 /* Colors.swift in Sources */,
+				8BEDE4AF2A253DCC00FBDB17 /* SingleChoiceQuestionView.swift in Sources */,
+				8BEDE4A32A253C6400FBDB17 /* Question.swift in Sources */,
+				8BEDE4AB2A253D7500FBDB17 /* MultipleChoiceQuestionView.swift in Sources */,
+				8B1380E32A2946D000A13831 /* Answer.swift in Sources */,
+				8BEDE4962A253B7F00FBDB17 /* ContentView.swift in Sources */,
+				8BEDE4A62A253CA600FBDB17 /* QuestionViewModel.swift in Sources */,
+				8B1380E12A2932A900A13831 /* RadioButton.swift in Sources */,
+				8BEDE4942A253B7F00FBDB17 /* GoTech_AssignmentApp.swift in Sources */,
+				8B1380DA2A29070500A13831 /* Color+RGB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BEDE49C2A253B8000FBDB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BEDE49D2A253B8000FBDB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEDE49F2A253B8000FBDB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoTech Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VP773YHFP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Petr-Blinov.GoTech-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BEDE4A02A253B8000FBDB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoTech Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VP773YHFP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Petr-Blinov.GoTech-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEDE48B2A253B7F00FBDB17 /* Build configuration list for PBXProject "GoTech Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEDE49C2A253B8000FBDB17 /* Debug */,
+				8BEDE49D2A253B8000FBDB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEDE49E2A253B8000FBDB17 /* Build configuration list for PBXNativeTarget "GoTech Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEDE49F2A253B8000FBDB17 /* Debug */,
+				8BEDE4A02A253B8000FBDB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEDE4882A253B7F00FBDB17 /* Project object */;
+}
